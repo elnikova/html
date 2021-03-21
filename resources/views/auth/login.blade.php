@@ -52,10 +52,8 @@
                 </x-button>
             </div>
 
-            <div class="form-group form-group text-center ">
-                <a href='/login/redirect'><i class="fa fa-github"></i>Log in with Github</a><br>
-                {{-- <a href='/login/twitter'><i class="fa fa-twitter"></i>Log in with  Twitter</a><br>
-                <a href='/login/facebook'><i class="fa fa-facebook"></i>Log in with  Facebook</a><br> --}}
+            <div class="form-group text-right">
+                <a href='/login/github' class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150 mt-3">Log in with Github</a>
             </div>
         </form>
     </x-auth-card>

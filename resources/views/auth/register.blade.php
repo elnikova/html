@@ -55,10 +55,8 @@
                 </x-button>
             </div>
 
-            <div class="form-group text-center">
-                <a href='/register/redirect'><i class="fa fa-github"></i>Register with Github</a><br>
-                {{-- <a href='/register/twitter'><i class="fa fa-twitter"></i>Register with Twitter</a><br>
-                <a href='/register/facebook'><i class="fa fa-facebook"></i>Register with Facebook</a> --}}
+            <div class="form-group text-right">
+                <a href='/login/github' class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150 mt-4">Register with Github</a><br>
             </div>
 
         </form>

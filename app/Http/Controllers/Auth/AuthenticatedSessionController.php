@@ -52,18 +52,8 @@ class AuthenticatedSessionController extends Controller
 
         return redirect('/');
     }
-
-    public function redirectToProvider()
-    {
-        return Socialite::driver('github')->redirect();
-    }
-
-    public function handlProviderCallback()
-    {
-        $user = Socialite::driver('github')->user();
-        dd($user);
-
-        
-    }
     
 }
+
+
+    
